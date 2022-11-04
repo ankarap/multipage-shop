@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>Beauty-shop</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<div class="header__body">
+					<div class="header__icon">
+						<span></span>
+					</div>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="html/catalog.html">
+									МАГАЗИН
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="html/about.html">
+									О НАС
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="html/contact.html">
+									КОНТАКТЫ
+								</a>
+							</li>
+							<li class="menu__item">
+								+7 (986) 88 265 88
+							</li>
+						</ul>
+						<div class="menu__social social">
+							<div class="social__item">
+								<img src="img/header/social/insta.png" alt="img">
+							</div>
+							<div class="social__item">
+								<img src="img/header/social/telegram.png" alt="img">
+							</div>
+							<div class="social__item">
+								<img src="img/header/social/viber.png" alt="img">
+							</div>
+							<div class="social__item">
+								<img src="img/header/social/whatsapp.png" alt="img">
+							</div>
+						</div>
+					</nav>
+					<div class="header__logo">
+						<a href="index.html">
+							<img src="img/mainpage/logo/logo.png" alt="img">
+						</a>
+					</div>
+					<div class="header__contact">
+						+7 (986) 88 265 88
+					</div>
+					<div class="header__icons icon-header">
+						<div class="icon-header__item">
+							<img src="img/icons/header/search.png" alt="img">
+						</div>
+						<div class="icon-header__item">
+							<img src="img/icons/header/bag.png" alt="img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__modal modal-page" id="overlay">
+				<div class="modal-page__container">
+					<div class="modal-page__body">
+						<button class="modal-page__close" title="Закрыть"
+							onclick="document.getElementById('overlay').style.display='none';"></button>
+						<div class="modal-page__title">
+							Получите <span>10%</span> скидки
+						</div>
+						<div class="modal-page__mail mail">
+							<div class="mail__field">
+								<input class="mail__text" type="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="modal-page__text">
+							Подпишитесь на наши новости и получите
+							<p>10%
+								скидки на первый заказ!</p>
+						</div>
+						<div class="modal-page__button">
+							<button class="modal-page__btn">
+								Отправить
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__cover cover">
+				<div class="cover__background">
+					<img src="img/mainpage/bckg/bckg.png" alt="img">
+				</div>
+				<div class="cover__container _container">
+					<div class="cover__body">
+						<div class="cover__title">
+							MON MOU
+						</div>
+						<div class="cover__text">
+							новая философия
+							бережного ухода за <br> кожей и волосами.
+						</div>
+						<div class="cover__button btn-cover">
+							<div class="btn-cover__text">
+								Хотите попробовать?
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__text text-page">
+				<div class="text-page__container _container">
+					<div class="text-page__body">
+						<div class="text-page__text">
+							Бесплатная доставка при заказе от 2000 рублей
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__picture picture">
+				<div class="picture__container _container">
+					<div class="picture__body">
+						<div class="picture__column column-picture">
+							<div class="column-picture__item item-pic">
+								<div class="item-pic__text">
+									ПОЛОТЕНЦЕ С <br>
+									НАТУРАЛЬНЫМ ШЕЛКОМ
+								</div>
+								<div class="item-pic__img">
+									<img src="img/mainpage/pic-block/01.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="picture__column column-picture">
+							<div class="column-picture__item item-pic">
+								<div class="item-pic__img">
+									<img src="img/mainpage/pic-block/02.png" alt="img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__swiper swiper">
+				<div class="swiper__title">ТОП ПРОДАЖ</div>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="swiper__img">
+							<img src="img/mainpage/hits/01.png" alt="img">
+						</div>
+						<div class="swiper__body">
+							<div class="swiper__text">
+								Полотенце с шелком для лица и шеи
+							</div>
+							<div class="swiper__price">
+								830 RUB
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper__img">
+							<img src="img/mainpage/hits/02.png" alt="img">
+						</div>
+						<div class="swiper__body">
+							<div class="swiper__text">
+								Объемная шелковая резинка для волос
+							</div>
+							<div class="swiper__price">
+								330 RUB
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper__image">
+							<div class="swiper__button">
+								<div class="swiper__btn">
+									Запатентовано
+								</div>
+							</div>
+							<div class="swiper__img">
+								<img src="img/mainpage/hits/03.png" alt="img">
+							</div>
+						</div>
+						<div class="swiper__body">
+							<div class="swiper__text">
+								Полотенце-тюрбан с шелком для волос
+							</div>
+							<div class="swiper__price">
+								990 RUB
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper__img">
+							<img src="img/mainpage/hits/01.png" alt="img">
+						</div>
+						<div class="swiper__body">
+							<div class="swiper__text">
+								Полотенце с шелком для лица и шеи
+							</div>
+							<div class="swiper__price">
+								830 RUB
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper__img">
+							<img src="img/mainpage/hits/02.png" alt="img">
+						</div>
+						<div class="swiper__body">
+							<div class="swiper__text">
+								Объемная шелковая резинка для волос
+							</div>
+							<div class="swiper__price">
+								330 RUB
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper__image">
+							<div class="swiper__button">
+								<div class="swiper__btn">
+									Запатентовано
+								</div>
+							</div>
+							<div class="swiper__img">
+								<img src="img/mainpage/hits/03.png" alt="img">
+							</div>
+						</div>
+						<div class="swiper__body">
+							<div class="swiper__text">
+								Полотенце-тюрбан с шелком для волос
+							</div>
+							<div class="swiper__price">
+								990 RUB
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</section>
+			<section class="page__text-block text-block">
+				<div class="text-block__container _container">
+					<div class="text-block__body">
+						<div class="text-block__mail">
+							Подпишись на нашу
+							рассылку <br> и узнавай первой про шелковые <br> новинки
+						</div>
+						<div class="text-block__button btn-text">
+							<div class="btn-text__follow">
+								Подписаться
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container ">
+					<div class="about__header header-block">
+						<div class="header-block__title">
+							О НАС ПИШУТ
+						</div>
+					</div>
+					<div class="about__content">
+						<div class="about__image">
+							<img src="img/mainpage/aboutus/01.png" alt="img">
+						</div>
+						<div class="about__body">
+							<div class="about__item item">
+								<div class="item__img">
+									<img src="img/mainpage/aboutus/02.png" alt="img">
+								</div>
+								<div class="item__text text-about">
+									<div class="text-about__text">
+										Это, без преувеличения, уникальный продукт <br> в beauty-индустрии,
+										который предназначен для повышения <br> комфорта в уходе за
+										волосами и улучшения их состояния. <br> Первая сторона
+										полотенца называется Soft:
+										она сделана <br> из специальной махры и впитает
+										лишнюю влагу всего за <br> 3-5 минут. Использовать
+										эту сторону создатели <br> рекомендуют сразу после мытья головы.
+									</div>
+								</div>
+							</div>
+							<div class="about__item item">
+								<div class="item__img">
+									<img src="img/mainpage/aboutus/03.png" alt="img">
+								</div>
+								<div class="item__text text-about">
+									<div class="text-about__text">
+										Бренд MON MOU создал необычное <br>
+										полотенце-тюрбан для деликатной сушки волос,
+										которое <br> состоит из натурального
+										шелка и махровой ткани. Главная <br> задача бьюти-новинки
+										— сделать уход за локонами <br> комфортным для девушек
+										и деликатным для
+										самих волос. <br> Полотенце-тюрбан подходит для любой
+										длины волос, а <br> также удобно фиксируется с помощью
+										пуговицы.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__tegs tegs">
+				<div class="tegs__container _container">
+					<div class="tegs__body">
+						<div class="tegs__item item-tegs">
+							<div class="item-tegs__text">
+								#MONMOUHAIR
+							</div>
+						</div>
+						<div class="tegs__item item-tegs">
+							<div class="item-tegs__text">
+								#MONMOUSKIN
+							</div>
+						</div>
+						<div class="tegs__item item-tegs">
+							<div class="item-tegs__text">
+								#MONMOUSLEEP
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__peple ppl-block">
+				<div class="ppl-block__container">
+					<div class="ppl-block__body">
+						<div class="ppl-block__row row">
+							<div class="row__item">
+								<img src="img/mainpage/people/01.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/02.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/03.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/04.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/05.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/06.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/07.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/08.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/09.png" alt="img">
+							</div>
+							<div class="row__item">
+								<img src="img/mainpage/people/10.png" alt="img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container _container">
+				<div class="footer__body">
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list-1">
+							<li class="menu-footer__item">
+								<a href="index.html">
+									Главная
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="html/about.html">
+									О НАС
+								</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="html/contact.html">
+									КОНТАКТЫ
+								</a>
+								
+							</li>
+							<li class="menu-footer__item">
+								<a href="html/catalog.html">
+									МАГАЗИН
+								</a>
+							</li>
+						</ul>
+						<ul class="menu-footer__list-2">
+							<li class="menu-footer__item">
+								Сотрудничество
+							</li>
+							<li class="menu-footer__item">
+								Возврат и обмен
+							</li>
+							<li class="menu-footer__item">
+								Доставка
+							</li>
+						</ul>
+					</nav>
+					<nav class="footer__pay pay-footer">
+						<ul class="pay-footer__list">
+							<li class="pay-footer__item">
+								<img src="img/icons/footer/pay.png" alt="img">
+							</li>
+							<li class="pay-footer__item">
+								<img src="img/icons/footer/visa.png" alt="img">
+							</li>
+							<li class="pay-footer__item">
+								<img src="img/icons/footer/m-cart.png" alt="img">
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
